@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sagar Vinodiya | Developer Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #141414;
+      color: #fff;
+    }
+
+    header {
+      background-color: #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+
+    header h1 {
+      color: #e50914;
+      font-size: 28px;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/59ce8b0c-3ab4-481b-b70b-3a289a5e8b22/4e3176b5-4915-4bd3-8f14-0e6a66f91e01/IN-en-20230626-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+      position: relative;
+    }
+
+    .hero img {
+      border-radius: 50%;
+      border: 3px solid #e50914;
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 600px;
+    }
+
+    section {
+      padding: 50px 40px;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .project h3 {
+      color: #e50914;
+    }
+
+    .project a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #000;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SAGARFLIX</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <img src="https://avatars.githubusercontent.com/u/00000000?v=4" alt="Sagar Vinodiya">
+    <h2>Hi, I'm Sagar 👋</h2>
+    <p>Aspiring Full Stack Developer | Java, Web Dev, MySQL | Passionate about creating clean and functional user experiences.</p>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a 3rd year BTech student at SB Jain College of Engineering majoring in ETC. Skilled in Java, web technologies, and backend development using MySQL. I love building projects that solve real problems.</p>
+  </section>
+
+  <section id="github">
+    <h2>GitHub</h2>
+    <p>GitHub: <a href="https://github.com/SagarVinodiya" target="_blank">@SagarVinodiya</a></p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project">
+        <h3>📱 Phone Recommendation System</h3>
+        <p>Suggests best phones based on specs using Python, Streamlit & MySQL.</p>
+        <a href="#">GitHub</a>
+      </div>
+      <div class="project">
+        <h3>🏠 Home Rental System</h3>
+        <p>Java + SQL based rental management portal.</p>
+        <a href="#">GitHub</a>
+      </div>
+      <div class="project">
+        <h3>💧 Water Monitoring IoT</h3>
+        <p>Monitors water quality using sensors and displays results on LCD + Cloud.</p>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: sagarvinodiya@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/SagarVinodiya" target="_blank">@SagarVinodiya</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sagar-vinodiya-33893a28a/" target="_blank">Sagar Vinodiya</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sagar Vinodiya | Portfolio inspired by Netflix UI</p>
+  </footer>
+
+</body>
+</html>
