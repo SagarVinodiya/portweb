@@ -23,8 +23,6 @@ Welcome to **SAGARFLIX** — a Netflix-themed personal portfolio created using p
 - Font: `Arial`, fallback sans-serif
 - Layout: Flexbox & Grid
 
----
-
 ## 📁 Folder Structure
 
 project-amazon-prime-clone-main/
